@@ -16,6 +16,7 @@ import ExpensesList from './pages/expense/ExpensesList';
 function App() {
   return (
     <BrowserRouter>
+    
       <Navbar />
       <Routes>
         <Route exact path="/" Component={ExpensesList} />
@@ -30,7 +31,7 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-  
+
 }
 
 export default App;
